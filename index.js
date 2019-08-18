@@ -1,4 +1,4 @@
-const sys = require('./models/init')
+const sys = require('./lib/init')
 const {
     System,
     init
