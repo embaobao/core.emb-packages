@@ -1,0 +1,20 @@
+{
+  "name": "core.emb",
+  "version": "0.0.2",
+  "description": "封装JavaScript项目基本操作的核心包,用于项目搭建的基本环境",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ": https://github.com/embaobao/packages.core-embaobao.cn"
+  },
+  "keywords": [
+    "[javaScript",
+    "base]"
+  ],
+  "author": "吃火星的宝宝_EMB@embaobao.cn",
+  "license": "ISC",
+  "dependencies": {}
+}
