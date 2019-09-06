@@ -1,6 +1,6 @@
 # Core.emb
 
-
+    V 0.03
 
 >  首先，很高兴您能来到这里 ，如果您有时间请看下我们项目的**序**言。
 >
@@ -39,6 +39,10 @@
 
 
 ### Java Script 所有环境的扩展
+
+#### Base
+
+- [type- JavaSrtipt 类型验证](./doc/type.md) 
 
 #### Function
 
