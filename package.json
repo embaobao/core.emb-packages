@@ -4,17 +4,28 @@
   "description": "JavaScript基本操作的核心包,搭建项目的基本环境",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c",
+    "lint": "eslint 'lib/**/*.js'",
+    "fix": "eslint --fix 'lib/**/*.js'"
   },
   "repository": {
     "type": "git",
     "url": ": https://github.com/embaobao/packages.core-embaobao.cn"
   },
   "keywords": [
-    "[javaScript",
-    "base]"
+    "javaScript",
+    "base"
   ],
   "author": "embaobao.cn",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "prettier": "^2.1.0",
+    "rollup": "^2.26.5"
+  }
 }
